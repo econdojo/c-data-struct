@@ -7,10 +7,10 @@ BUILDDIR := $(PROJDIR)/bin
 TARGET = test
 
 # Decide whether the commands will be shwon or not
-VERBOSE = TRUE
+VERBOSE = FALSE
 
 # Create the list of directories
-DIRS = main linked_list
+DIRS = main linked_list hash_table
 SOURCEDIRS = $(foreach dir, $(DIRS), $(addprefix $(SOURCEDIR)/, $(dir)))
 TARGETDIRS = $(foreach dir, $(DIRS), $(addprefix $(BUILDDIR)/, $(dir)))
 

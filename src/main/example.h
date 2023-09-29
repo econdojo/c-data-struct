@@ -1,7 +1,10 @@
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
-/* Print linked list */
+/* Linked list */
 int linked_list(void);
+
+/* Hash table */
+int hash_table(void);
 
 #endif
