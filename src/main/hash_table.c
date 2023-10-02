@@ -2,16 +2,16 @@
 #include "../hash_table/hash_table.h"
 
 int hash_table(void) {
-    ht_t *ht = ht_create();
+    table_t *ht = create_table();
 
-    ht_set(ht, "name1", "em");
-    ht_set(ht, "name2", "russian");
-    ht_set(ht, "name3", "pizza");
-    ht_set(ht, "name4", "doge");
-    ht_set(ht, "name5", "pyro");
-    ht_set(ht, "name6", "joost");
-    ht_set(ht, "name7", "kalix");
+    set_entry(ht, "name1", "em");
+    set_entry(ht, "name2", "russian");
+    set_entry(ht, "name3", "pizza");
+    set_entry(ht, "name4", "doge");
+    set_entry(ht, "name5", "pyro");
+    set_entry(ht, "name6", "joost");
+    set_entry(ht, "name7", "kalix");
 
-    ht_dump(ht);
+    print_table(ht);
     return 0;
 }

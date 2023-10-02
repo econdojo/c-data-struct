@@ -2,7 +2,7 @@
 #include <string.h>
 #include "hash_table.h"
 
-entry_t *ht_pair(const char *key, const char *value) {
+entry_t *pair_entry(const char *key, const char *value) {
     // allocate the entry
     entry_t *entry = malloc(sizeof(entry_t) * 1);
     entry->key = malloc(strlen(key) + 1);

@@ -1,28 +1,33 @@
 #ifndef HASH_TABLE_H
 #define HASH_TABLE_H
 
-typedef struct entry_t {
+/* Code adapted from engineer man: 
+https://github.com/engineer-man/youtube/blob/master/077/hashtable.c */
+
+#define TABLE_SIZE 20000
+
+typedef struct entry {
     char *key;
     char *value;
-    struct entry_t *next;
+    struct entry *next;
 } entry_t;
 
-typedef struct {
+typedef struct table {
     entry_t **entries;
-} ht_t;
+} table_t;
 
 unsigned int hash(const char *key);
 
-entry_t *ht_pair(const char *key, const char *value);
+entry_t *pair_entry(const char *key, const char *value);
 
-ht_t *ht_create(void);
+table_t *create_table(void);
 
-void ht_set(ht_t *hashtable, const char *key, const char *value);
+void set_entry(table_t *ht, const char *key, const char *value);
 
-char *ht_get(ht_t *hashtable, const char *key);
+char *get_entry(table_t *ht, const char *key);
 
-void ht_del(ht_t *hashtable, const char *key);
+void delete_entry(table_t *ht, const char *key);
 
-void ht_dump(ht_t *hashtable);
+void print_table(table_t *ht);
 
 #endif

@@ -2,11 +2,11 @@
 #include <string.h>
 #include "hash_table.h"
 
-void ht_del(ht_t *hashtable, const char *key) {
+void delete_entry(table_t *ht, const char *key) {
     unsigned int bucket = hash(key);
 
     // try to find a valid bucket
-    entry_t *entry = hashtable->entries[bucket];
+    entry_t *entry = ht->entries[bucket];
 
     // no bucket means no entry
     if (entry == NULL) {
@@ -22,12 +22,12 @@ void ht_del(ht_t *hashtable, const char *key) {
         if (strcmp(entry->key, key) == 0) {
             // first item and no next entry
             if (entry->next == NULL && idx == 0) {
-                hashtable->entries[bucket] = NULL;
+                ht->entries[bucket] = NULL;
             }
 
             // first item with a next entry
             if (entry->next != NULL && idx == 0) {
-                hashtable->entries[bucket] = entry->next;
+                ht->entries[bucket] = entry->next;
             }
 
             // last item
@@ -52,6 +52,6 @@ void ht_del(ht_t *hashtable, const char *key) {
         prev = entry;
         entry = prev->next;
 
-        ++idx;
+        idx++;
     }
 }

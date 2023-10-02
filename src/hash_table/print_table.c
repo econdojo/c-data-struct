@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "hash_table.h"
 
-#define TABLE_SIZE 20000
-
-void ht_dump(ht_t *hashtable) {
-    for (int i = 0; i < TABLE_SIZE; ++i) {
-        entry_t *entry = hashtable->entries[i];
+void print_table(table_t *ht) {
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        entry_t *entry = ht->entries[i];
 
         if (entry == NULL) {
             continue;

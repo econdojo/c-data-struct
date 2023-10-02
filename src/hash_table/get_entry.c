@@ -2,11 +2,11 @@
 #include <string.h>
 #include "hash_table.h"
 
-char *ht_get(ht_t *hashtable, const char *key) {
+char *get_entry(table_t *ht, const char *key) {
     unsigned int slot = hash(key);
 
     // try to find a valid slot
-    entry_t *entry = hashtable->entries[slot];
+    entry_t *entry = ht->entries[slot];
 
     // no slot means no entry
     if (entry == NULL) {

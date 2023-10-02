@@ -2,17 +2,15 @@
 #include <string.h>
 #include "hash_table.h"
 
-#define TABLE_SIZE 20000
-
-void ht_set(ht_t *hashtable, const char *key, const char *value) {
+void set_entry(table_t *ht, const char *key, const char *value) {
     unsigned int slot = hash(key);
 
     // try to look up an entry set
-    entry_t *entry = hashtable->entries[slot];
+    entry_t *entry = ht->entries[slot];
 
     // no entry means slot empty, insert immediately
     if (entry == NULL) {
-        hashtable->entries[slot] = ht_pair(key, value);
+        ht->entries[slot] = pair_entry(key, value);
         return;
     }
 
@@ -36,5 +34,5 @@ void ht_set(ht_t *hashtable, const char *key, const char *value) {
     }
 
     // end of chain reached without a match, add new
-    prev->next = ht_pair(key, value);
+    prev->next = pair_entry(key, value);
 }
