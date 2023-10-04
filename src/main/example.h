@@ -1,6 +1,9 @@
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
+/* Queue */
+int queue(void);
+
 /* Stack */
 int stack(void);
 
