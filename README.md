@@ -2,8 +2,13 @@
 Data Structures in C
 
 Change directory to "bin":
-    cd bin
+
+    $ cd bin
+
 Compile:
-    make
+
+    $ make
+
 Run:
-    ./test
+
+    $ ./test
