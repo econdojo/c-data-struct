@@ -3,7 +3,8 @@
 #include "example.h"
 
 int main(int argc, char **argv) {
-    queue();
+    tree();
+    // queue();
     //stack();
     //linked_list();
     //hash_table();

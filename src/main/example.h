@@ -1,6 +1,9 @@
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
+/* Tree */
+int tree(void);
+
 /* Queue */
 int queue(void);
 
