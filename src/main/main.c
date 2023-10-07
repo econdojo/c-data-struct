@@ -3,10 +3,11 @@
 #include "example.h"
 
 int main(int argc, char **argv) {
-    tree();
+    graph();
+    // tree();
     // queue();
-    //stack();
-    //linked_list();
-    //hash_table();
+    // stack();
+    // linked_list();
+    // hash_table();
     return 0;
 }

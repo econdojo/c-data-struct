@@ -1,6 +1,9 @@
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
+/* Graph */
+int graph(void);
+
 /* Tree */
 int tree(void);
 
