@@ -1,4 +1,4 @@
-#include "../linked_list/linked_list.h"
+#include "../list/list.h"
 
 #ifndef QUEUE_H
 #define QUEUE_H

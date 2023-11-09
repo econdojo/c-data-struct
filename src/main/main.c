@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
     // tree();
     // queue();
     // stack();
-    // linked_list();
-    // hash_table();
+    // list();
+    // table();
     return 0;
 }

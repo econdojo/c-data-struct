@@ -14,9 +14,9 @@ int queue(void);
 int stack(void);
 
 /* Linked list */
-int linked_list(void);
+int list(void);
 
 /* Hash table */
-int hash_table(void);
+int table(void);
 
 #endif
