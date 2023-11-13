@@ -1,6 +1,9 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
+#include <stdlib.h>
+#include <stdio.h>
+
 // Define the maximum number of vertices in the graph
 #define N 6
  

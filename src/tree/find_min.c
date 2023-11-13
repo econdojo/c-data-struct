@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "tree.h"
 
 int find_min(bst_node *root) {

@@ -1,5 +1,4 @@
 // Directed graph using adjacency list
-#include <stdlib.h>
 #include "../graph/graph.h"
 
 int graph(void)

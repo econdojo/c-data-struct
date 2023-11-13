@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "list.h"
 
 void delete_node(node_t **p_head, int n) {

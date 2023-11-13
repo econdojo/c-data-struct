@@ -4,6 +4,10 @@
 /* Code adapted from engineer man: 
 https://github.com/engineer-man/youtube/blob/master/077/hashtable.c */
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
 #define TABLE_SIZE 20000
 
 typedef struct entry {

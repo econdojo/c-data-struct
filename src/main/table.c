@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "../table/table.h"
 
 int table(void) {

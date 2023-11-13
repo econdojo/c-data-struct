@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "list.h"
 
 void insert_node(node_t **p_head, int data, int n) {

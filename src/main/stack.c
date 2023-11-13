@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "../stack/stack.h"
 
 int stack(void) {

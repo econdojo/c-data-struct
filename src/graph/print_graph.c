@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "graph.h"
 
 void print_graph(graph_t *g)

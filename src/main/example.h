@@ -19,4 +19,7 @@ int list(void);
 /* Hash table */
 int table(void);
 
+/* Heap */
+int heap(void);
+
 #endif

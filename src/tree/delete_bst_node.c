@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "tree.h"
 
 bst_node *delete_bst_node(bst_node *root, int data) {

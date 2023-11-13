@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "queue.h"
 
 void dequeue(node_t **p_head) {

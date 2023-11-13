@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "table.h"
 
 table_t *create_table(void) {

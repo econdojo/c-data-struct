@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "table.h"
 
 void print_table(table_t *ht) {

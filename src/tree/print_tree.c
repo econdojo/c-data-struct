@@ -1,6 +1,5 @@
 // Inorder traverse
 
-#include <stdio.h>
 #include "tree.h"
 
 void print_tree(bst_node *root) {

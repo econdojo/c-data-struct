@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "queue.h"
 
 void enqueue(node_t **p_head, node_t **p_tail, int data) {

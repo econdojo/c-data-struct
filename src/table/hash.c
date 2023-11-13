@@ -1,4 +1,3 @@
-#include <string.h>
 #include "table.h"
 
 unsigned int hash(const char *key) {

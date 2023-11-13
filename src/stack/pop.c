@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "stack.h"
 
 void pop(node_t **p_top) {

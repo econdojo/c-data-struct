@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "../queue/queue.h"
 
 int queue(void) {

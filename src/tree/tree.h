@@ -1,9 +1,11 @@
 // Binary search tree (BST)
 
-#include <stdbool.h>
-
 #ifndef TREE_H
 #define TREE_H
+
+#include <stdbool.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 typedef struct bst_node {
     int data;

@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stdbool.h>
 #include "tree.h"
 
 bool search_bst_node(bst_node *root, int data) {

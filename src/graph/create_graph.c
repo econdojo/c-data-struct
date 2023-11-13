@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "graph.h"
 
 graph_t *create_graph(edge edges[], int n)

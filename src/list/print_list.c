@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "list.h"
 
 void print_list(node_t *head) {

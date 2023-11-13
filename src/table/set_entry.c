@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
 #include "table.h"
 
 void set_entry(table_t *ht, const char *key, const char *value) {

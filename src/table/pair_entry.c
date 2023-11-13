@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
 #include "table.h"
 
 entry_t *pair_entry(const char *key, const char *value) {
