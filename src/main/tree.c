@@ -1,4 +1,4 @@
-#include "../tree/tree.h"
+#include "main.h"
 
 int tree(void) {
     bst_node *root = NULL;

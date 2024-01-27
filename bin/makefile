@@ -60,7 +60,7 @@ endif
 
 # Define the function that will generate each rule
 define generateRules
-$(1)/%.o: %.c
+$(1)/%.o: %.c $(notdir $(1)).h
 	@echo Building $$@
 	$(HIDE)$(CC) -c -g $$(INCLUDES) -o $$(subst /,$$(PSEP),$$@) $$(subst /,$$(PSEP),$$<) -MMD
 endef

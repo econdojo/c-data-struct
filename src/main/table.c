@@ -1,4 +1,4 @@
-#include "../table/table.h"
+#include "main.h"
 
 int table(void) {
     table_t *ht = create_table();

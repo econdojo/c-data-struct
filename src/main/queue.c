@@ -1,4 +1,4 @@
-#include "../queue/queue.h"
+#include "main.h"
 
 int queue(void) {
     node_t *head = NULL, *tail = NULL;

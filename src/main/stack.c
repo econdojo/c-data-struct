@@ -1,4 +1,4 @@
-#include "../stack/stack.h"
+#include "main.h"
 
 int stack(void) {
     node_t *top = NULL;

@@ -1,4 +1,4 @@
-#include "../list/list.h"
+#include "main.h"
 
 int list(void) {
     node_t *head = NULL;

@@ -1,5 +1,5 @@
 // Directed graph using adjacency list
-#include "../graph/graph.h"
+#include "main.h"
 
 int graph(void)
 {
