@@ -8,6 +8,7 @@
 #include "../stack/stack.h"
 #include "../table/table.h"
 #include "../tree/tree.h"
+#include "../oop/oop.h"
 
 /* Graph */
 int graph(void);
@@ -29,5 +30,8 @@ int table(void);
 
 /* Heap */
 int heap(void);
+
+/* OOP */
+int oop(void);
 
 #endif

@@ -1,5 +1,5 @@
-/Users/econdojo/Desktop/CS/Algorithms/c-data-struct/bin/main/main.o: \
-  /Users/econdojo/Desktop/CS/Algorithms/c-data-struct/src/main/main.c \
+/Users/econdojo/Desktop/CS/Algorithms/c-data-struct/bin/main/oop.o: \
+  /Users/econdojo/Desktop/CS/Algorithms/c-data-struct/src/main/oop.c \
   /Users/econdojo/Desktop/CS/Algorithms/c-data-struct/src/main/main.h \
   /Users/econdojo/Desktop/CS/Algorithms/c-data-struct/src/main/../graph/graph.h \
   /Users/econdojo/Desktop/CS/Algorithms/c-data-struct/src/main/../heap/heap.h \

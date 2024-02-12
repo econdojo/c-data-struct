@@ -10,7 +10,7 @@ TARGET = test
 VERBOSE = FALSE
 
 # Create the list of directories
-DIRS = main list table stack queue tree heap \
+DIRS = main oop list table stack queue tree heap \
 graph
 SOURCEDIRS = $(foreach dir, $(DIRS), $(addprefix $(SOURCEDIR)/, $(dir)))
 TARGETDIRS = $(foreach dir, $(DIRS), $(addprefix $(BUILDDIR)/, $(dir)))
